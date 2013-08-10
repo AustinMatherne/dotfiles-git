@@ -3,9 +3,6 @@
 !.gitignore
 *~
 
-# KDE
-.directory
-
 # Vim > https://github.com/github/gitignore/blob/master/Global/vim.gitignore
 .*.sw[a-z]
 *.un~
