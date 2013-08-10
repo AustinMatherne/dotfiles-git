@@ -1,0 +1,32 @@
+[user]
+	name = Austin M. Matherne
+	email = AustinMatherne@Gmail.com
+	signingkey = 37F543A5
+[core]
+	editor = vim
+	autocrlf = input
+[merge]
+	tool = vimdiff
+[color]
+	ui = auto
+[alias]
+	p = push
+	pa = push --recurse-submodules=on-demand
+	co = checkout
+	br = branch
+	cm = commit -S
+	st = status
+	un = reset HEAD --
+	rs = reset --hard
+	last = log -1 HEAD
+	history = log -p --graph
+	one = log --pretty=format:'%h - %an - %ar - %s' --graph
+	unstash = !git stash show -p | git apply -R
+[commit]
+	template = /home/austinmatherne/.gitmessage
+[help]
+	autocorrect = 1
+[github]
+	user = AustinMatherne
+[push]
+	default = simple
