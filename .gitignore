@@ -1,14 +1,21 @@
-# Linux > https://github.com/github/gitignore/blob/master/Global/Linux.gitignore
+### /home/austinmatherne/.gitignore-boilerplates/Global/Linux.gitignore
+
 .*
 !.gitignore
 *~
 
-# Vim > https://github.com/github/gitignore/blob/master/Global/vim.gitignore
-.*.sw[a-z]
+
+### /home/austinmatherne/.gitignore-boilerplates/Global/vim.gitignore
+
+*.s[a-w][a-z]
 *.un~
 Session.vim
+.netrwhist
+*~
 
-# Node.js > https://github.com/github/gitignore/blob/master/Node.gitignore
+
+### /home/austinmatherne/.gitignore-boilerplates/Node.gitignore
+
 lib-cov
 *.seed
 *.log
@@ -23,3 +30,184 @@ logs
 results
 
 npm-debug.log
+node_modules
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Erlang.gitignore
+
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Scala.gitignore
+
+*.class
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Haskell.gitignore
+
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Go.gitignore
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+
+
+### /home/austinmatherne/.gitignore-boilerplates/R.gitignore
+
+# History files
+.Rhistory
+
+# Example code in package build process
+*-Ex.R
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Python.gitignore
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Global/VirtualEnv.gitignore
+
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ss]cripts
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Ruby.gitignore
+
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Rails.gitignore
+
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+.rvmrc
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+.project
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Compass.gitignore
+
+.sass-cache
+
+
+### /home/austinmatherne/.gitignore-boilerplates/Global/SASS.gitignore
+
+### SASS Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
+
