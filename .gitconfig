@@ -11,6 +11,7 @@
 	ui = auto
 [alias]
 	p = push
+  pt = push --tags
 	pa = push --recurse-submodules=on-demand
 	co = checkout
 	br = branch
