@@ -211,3 +211,6 @@ pickle-email-*.html
 ### SASS Ignores - "Sassy CSS" http://sass-lang.com/
 *.sass-cache
 
+
+# Gemnasium gem configuration file
+config/gemnasium.yml
