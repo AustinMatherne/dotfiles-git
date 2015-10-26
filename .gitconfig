@@ -10,13 +10,14 @@
 [color]
 	ui = auto
 [alias]
+	s = status -s
+	a = add
 	p = push
 	pt = push --tag
 	pa = push --recurse-submodules=on-demand
 	co = checkout
 	br = branch
 	cm = commit -S
-	st = status
 	un = reset HEAD --
 	rs = reset --hard
 	last = log -1 HEAD
