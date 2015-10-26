@@ -23,7 +23,7 @@
 	rs = reset --hard
 	last = log -1 HEAD
 	history = log -p --graph
-	one = log --pretty=format:'%h - %an - %ar - %s' --graph
+	lg = log --oneline --decorate --all --graph
 	unstash = !git stash show -p | git apply -R
 [commit]
 	template = /home/austinmatherne/.gitmessage
