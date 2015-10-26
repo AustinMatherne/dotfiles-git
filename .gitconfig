@@ -15,6 +15,7 @@
 	p = push
 	pt = push --tag
 	pa = push --recurse-submodules=on-demand
+	pl = pull
 	co = checkout
 	br = branch
 	cm = commit -S
