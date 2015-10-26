@@ -24,6 +24,7 @@
 	last = log -1 HEAD
 	history = log -p --graph
 	lg = log --oneline --decorate --all --graph
+	d = difftool
 	unstash = !git stash show -p | git apply -R
 [commit]
 	template = /home/austinmatherne/.gitmessage
