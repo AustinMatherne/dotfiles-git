@@ -17,7 +17,7 @@
 	pa = push --recurse-submodules=on-demand
 	pl = pull
 	co = checkout
-	br = branch
+	b = branch
 	cm = commit -S
 	un = reset HEAD --
 	rs = reset --hard
