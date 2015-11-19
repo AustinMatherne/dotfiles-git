@@ -1,7 +1,7 @@
 [user]
 	name = Austin M. Matherne
 	email = AustinMatherne@ProtonMail.ch
-	signingkey = 37F543A5
+	signingkey = 48D1E771
 [core]
 	editor = vim
 	autocrlf = input
