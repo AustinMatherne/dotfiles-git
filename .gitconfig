@@ -12,10 +12,11 @@
 [alias]
 	s = status -s
 	a = add
-	p = push
-	pt = push --tag
-	pa = push --recurse-submodules=on-demand
+	ph = push
+	pht = push --tag
+	pha = push --recurse-submodules=on-demand
 	pl = pull
+	plr = pull --rebase
 	co = checkout
 	b = branch
 	cm = commit -S
