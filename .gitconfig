@@ -5,6 +5,8 @@
 [core]
 	editor = vim
 	autocrlf = input
+[i18n]
+	filesEncoding = utf-8
 [merge]
 	tool = vimdiff
 [color]
