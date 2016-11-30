@@ -9,6 +9,9 @@
 	filesEncoding = utf-8
 [merge]
 	tool = vimdiff
+[diff]
+	tool = vimdiff
+	indentHeuristic = true
 [color]
 	ui = auto
 [alias]
