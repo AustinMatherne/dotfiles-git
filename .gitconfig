@@ -19,21 +19,27 @@
 	ui = auto
 [alias]
 	s = status -s
+	b = branch -vv
+	r = remote -vv
+	rp = remote prune
+	rpa = !git remote | tr '\n' ' ' | xargs git remote prune
+	f = fetch
+	fa = fetch --all
 	a = add
+	d = difftool
+	dc = difftool --cached
+	co = checkout
+	cm = commit -S
+	rs = reset
+	rsh = reset --hard
+	l = log --oneline --decorate --all --graph
+	last = log -1 HEAD
+	history = log -p --graph
+	pl = pull
 	ph = push
 	pht = push --tag
 	pha = push --recurse-submodules=on-demand
-	pl = pull
-	plr = pull --rebase
-	co = checkout
-	b = branch
-	cm = commit -S
-	un = reset HEAD --
-	rs = reset --hard
-	last = log -1 HEAD
-	history = log -p --graph
-	lg = log --oneline --decorate --all --graph
-	d = difftool
+	unstage = reset HEAD --
 	unstash = !git stash show -p | git apply -R
 [commit]
 	template = /home/austinmatherne/.gitmessage
