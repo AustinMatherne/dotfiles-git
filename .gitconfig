@@ -44,8 +44,6 @@
 	pha = push --recurse-submodules=on-demand
 	unstage = reset HEAD --
 	unstash = !git stash show -p | git apply -R
-[commit]
-	template = /home/austinmatherne/.gitmessage
 [help]
 	autocorrect = 1
 [github]
