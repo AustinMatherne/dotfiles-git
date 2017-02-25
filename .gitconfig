@@ -29,8 +29,10 @@
 	a = add
 	d = difftool
 	dc = difftool --cached
+	ds = difftool --staged
 	co = checkout
 	cm = commit -S
+	cma = commit --amend
 	rs = reset
 	rsh = reset --hard
 	l = log --oneline --decorate --all --graph
